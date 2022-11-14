@@ -9,9 +9,9 @@ export const Layout = (props) => {
       </Head>
       <nav className="navbar sticky-top navbar-expand-sm navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/">
             <img height="55px" src="/images/logo.png" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
