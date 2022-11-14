@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -15,12 +14,71 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+footer {
+  background-color: #805d93;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.main-content {
+  min-height: calc(100vh - 370px);
+}
+
+.top-nav .nav-link {
+  font-weight: bold;
+  color: #805d93;
+  transition: 0.5s;
+}
+
+.top-nav .nav-link:hover {
+  font-weight: bolder;
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: #169873;
+}
+
+.carousel-item {
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.lead {
+  font-size: 16px;
+  color: #484848;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.display-4.heading {
+  position: relative;
+  font-size: 37px;
+  font-weight: 600;
+  display: inline-block;
+}
+.display-4.heading::after {
+  position: absolute;
+  left: 110%;
+  content: "";
+  height: 3px;
+  width: 150px;
+  background-color: #805d93;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lists li {
+  margin-bottom: 10px;
+}
+
+.lists li:last-child {
+  margin-bottom: 0;
 }
