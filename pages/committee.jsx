@@ -7,9 +7,9 @@ export default function Committee(props) {
             <h1 className="text-center">Our Advisor</h1>
           </div>
           <p className="text-center">
-            Md Abdul Halim
+            Md Abdul Halim <br> Lecturer,Dept. Tourism and Hospitality Management
           </p>
-          <p>Lecturer,Dept. Tourism and Hospitality Management</p>
+         
     <div><img src="/images/lutcfm.jpeg"></div>
       <div className="container mt-4 mb-5">
         <h4 className="text-center">Executive Committee</h4>
