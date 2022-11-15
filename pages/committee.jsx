@@ -4,9 +4,9 @@ export default function Committee(props) {
   return (
     <Layout title="LUTC : Committee">
       <div className="heading-main mt-5">
-            <h1 className="display-4 heading ">Our Advisor</h1>
+            <h1 className="text-center">Our Advisor</h1>
           </div>
-          <p className="lead mt-2">
+          <p className="text-center">
             Md Abdul Halim
           </p>
       <div className="container mt-4 mb-5">
