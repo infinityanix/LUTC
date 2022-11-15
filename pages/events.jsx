@@ -68,4 +68,9 @@ Level 2:For college students of Bangladesh. Both winners' articles are published
     body: "LUTC hosted their second study tour with 50 members of the LUTC along faculties of the department of Tourism and Hospitality Management to Saint Martin Island with thetagline “An escape to sandy shores”. It was 5days long educational excursion from 16thJanuary. to 21st January 2022.",
     imageUrl: "/images/events/st-martin.jpeg",
   },
+  {
+    title: "After two year LUTC again celebrate Tourism Fair 2022",
+    body: `To  'World Tourism Day 2019' along with allits stakeholders, LUTC arranged two days Tourism Fair in 2022. Many top-rated tour operators,travel agencies, airlines & other travel and tourism-related organizations arrived with their offers at this 'LUTC Tourism Fair-2022' to be a part of the celebration of World Tourism Day-2022 at Leading University.Also LUTC has successfully published the first volume of 'Travel Magazine' on the occasion of world tourism day (27 September 2022).`,
+    imageUrl: "/images/events/tourism-fair-2022.jpeg",
+  },
 ];
