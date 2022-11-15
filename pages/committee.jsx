@@ -3,7 +3,12 @@ import { Layout } from "../components/Layout";
 export default function Committee(props) {
   return (
     <Layout title="LUTC : Committee">
-      <div><h1>Advisor</h1><br><h2>Md Abdul Halim</h2></div>
+      <div className="heading-main mt-5">
+            <h1 className="display-4 heading ">Our Advisor</h1>
+          </div>
+          <p className="lead mt-2">
+            Md Abdul Halim
+          </p>
       <div className="container mt-4 mb-5">
         <h4 className="text-center">Executive Committee</h4>
         <h4 className="text-center">Leading University Tourist Club-LUTC</h4>
