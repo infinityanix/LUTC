@@ -4,13 +4,18 @@ export default function Committee(props) {
   return (
     <Layout title="LUTC : Committee">
       <div className="heading-main mt-5">
-            <h1 className="text-center">Our Advisor</h1>
-          </div>
-          <p className="text-center">
-            Md Abdul Halim
-          </p>
-          <p>Lecturer,Dept. Tourism and Hospitality Management</p>
-    <div><img src="/images/lutcfm.jpeg"></div>
+        <h1 className="text-center">Our Advisor</h1>
+        <h6 className="text-center">Md Abdul Halim</h6>
+        <p className="text-center">
+          Lecturer
+          <br />
+          Dept. Tourism and Hospitality Management
+        </p>
+      </div>
+
+      <div className="d-flex justify-content-center">
+        <img src="/images/lutcfm.jpeg" />
+      </div>
       <div className="container mt-4 mb-5">
         <h4 className="text-center">Executive Committee</h4>
         <h4 className="text-center">Leading University Tourist Club-LUTC</h4>
