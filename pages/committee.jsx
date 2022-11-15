@@ -16,6 +16,7 @@ export default function Committee(props) {
       <div className="d-flex justify-content-center">
         <img src="/images/lutcfm.jpeg" />
       </div>
+
       <div className="container mt-4 mb-5">
         <h4 className="text-center">Executive Committee</h4>
         <h4 className="text-center">Leading University Tourist Club-LUTC</h4>
